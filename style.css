@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.loader {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #000;
+}
+
+.logo {
+	animation: zoomLogo 2s ease-out forwards;
+}
+
+.logo img {
+	width: 800px;
+	height: 800px;
+}
+
+@keyframes zoomLogo {
+	from {transform: scale(0);}
+	to {transform: scale(1);}
+}
+
+table {
+	width: 100%; /* Optional: Set table width */
+	border-collapse: collapse; /* Remove default border between cells */
+  }
+  
+  th, td {
+	text-align: left; /* Align cell content to left */
+	padding: 10px; /* Add padding for better spacing */
+	border: 1px solid #ddd; /* Add a thin border to cells */
+  }
+  
+  th {
+	font-weight: bold; /* Make header cells bold */
+	background-color: #f2f2f2; /* Add a light background color to headers */
+  }
+  
+  tr:nth-child(even) {
+	background-color: #f9f9f9; /* Add a light background color to even rows */
+  }
