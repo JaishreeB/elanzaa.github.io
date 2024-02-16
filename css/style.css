@@ -239,11 +239,11 @@ span {
 
 @media (max-width: 768px) {
   #vid {
-    display: none;
+    display:contents;
   }
   
   #hero {
-    background-image: url("../img/capture.png");
+    /* background-image: url("../img/capture.png"); */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -609,6 +609,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (min-width: 1350px) {
   .cdreg {
     height: 90vh;
+
     /* width: 37vw; */
   }
 }
@@ -648,6 +649,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #reg .reg-container .content {
   background: #fff;
 }
+/* #reg .reg-container .f1 {
+  font-size: 45px;
+} */
 
 #reg .reg-container .title {
   color: #333;
@@ -658,6 +662,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
   #reg .reg-container .title {
     padding-top: 15px;
+  }
+  #reg .abcol{
+      height: 750px;
+      font-size: medium;
   }
 }
 
